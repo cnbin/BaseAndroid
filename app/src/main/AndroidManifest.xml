@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cheung.android.demo.baseuiframe">
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".components.activity.RoundButtonActivity" />
+        <activity android:name=".components.activity.QMUIDialogActivity" />
+        <activity android:name=".components.activity.QMUIFloatLayoutActivity" />
+        <activity android:name=".components.activity.QMUIEmptyViewActivity" />
+        <activity android:name=".components.activity.QMUIProgressBarActivity" />
+        <activity android:name=".components.activity.QMUIBottomSheetActivity" />
+        <activity android:name=".components.activity.QMUIGroupListViewActivity" />
+        <activity android:name=".components.activity.QMUITipDialogActivity" />
+        <activity android:name=".components.activity.QMUIRadiusImageViewActivity" />
+        <activity android:name=".components.activity.QMUIVerticalTextViewActivity" />
+        <activity android:name=".components.activity.QMUIPullRefreshLayoutActivity" />
+        <activity android:name=".components.activity.QMUIPopupActivity" />
+        <activity android:name=".components.activity.QMUISpanTouchFixTextViewActivity" />
+        <activity android:name=".components.activity.QMUILinkTextViewActivity" />
+        <activity android:name=".components.activity.QMUIQQFaceViewActivity" />
+        <activity android:name=".components.activity.QMUISpanActivity" />
+        <activity android:name=".components.activity.QMUICollapsingTopBarLayoutActivity" />
+        <activity android:name=".components.activity.QMUIViewPagerActivity"></activity>
+    </application>
+
+</manifest>
