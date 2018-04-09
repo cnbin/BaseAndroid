@@ -64,7 +64,15 @@ public class MainActivity extends BaseUIActivity {
         )).addTab(new QMUITabSegment.Tab(
                 ContextCompat.getDrawable(getApplicationContext(), R.mipmap.icon_tabbar_component),
                 ContextCompat.getDrawable(getApplicationContext(), R.mipmap.icon_tabbar_component_selected),
-                "服务", false
+                "附近", false
+        )).addTab(new QMUITabSegment.Tab(
+                ContextCompat.getDrawable(getApplicationContext(), R.mipmap.icon_tabbar_util),
+                ContextCompat.getDrawable(getApplicationContext(), R.mipmap.icon_tabbar_util_selected),
+                "发现", false
+        )).addTab(new QMUITabSegment.Tab(
+                ContextCompat.getDrawable(getApplicationContext(), R.mipmap.icon_tabbar_component),
+                ContextCompat.getDrawable(getApplicationContext(), R.mipmap.icon_tabbar_component_selected),
+                "订单", false
         )).addTab(new QMUITabSegment.Tab(
                 ContextCompat.getDrawable(getApplicationContext(), R.mipmap.icon_tabbar_util),
                 ContextCompat.getDrawable(getApplicationContext(), R.mipmap.icon_tabbar_util_selected),
